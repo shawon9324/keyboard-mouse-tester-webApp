@@ -1,0 +1,355 @@
+@font-face {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../css/helvthin.otf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica";
+  background-color: #000;
+}
+header {
+  background: url(../img/background.jpg) no-repeat 50% 50%;
+  background-color: #000;
+  height: 950px;
+  overflow: auto;
+}
+.key {
+  border: 1px solid red;
+  border-radius: 8px;
+  color: red;
+  display: inline-block;
+  font-size: 18px;
+  height: 52px;
+  text-align: center;
+  vertical-align: top;
+  width: 52px;
+  margin: 5px 1px;
+  border-bottom: 2px solid red;
+}
+.keyFunc {
+  border: 1px solid red;
+  border-radius: 8px;
+  color: red;
+  display: inline-block;
+  font-size: 14px;
+  height: 35px;
+  text-align: center;
+  vertical-align: top;
+  width: 47px;
+  margin: 5px 1px;
+  border-bottom: 2px solid red;
+}
+.keyboard-body {
+  height: 650px;
+  margin: 5px auto 0;
+  width: 1264px;
+  position: relative;
+}
+.header-gap {
+  width: 1264px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 16px 0 0;
+}
+.header-gap > div {
+  display: inline-block;
+  margin: 0 90px;
+}
+.keyboard-bg-blur {
+  background: rgba(0, 0, 0, 0) url(../img/background.jpg) no-repeat scroll
+    center 51%;
+  filter: blur(50px);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.keyboard-bg-fade {
+  background-color: #000;
+  height: 100%;
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+.content {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+.keyboard-header {
+  background-color: #000;
+  color: #008b8b;
+  height: 50px;
+  overflow: hidden;
+  padding-top: 5px;
+  width: 100%;
+  border: 1px solid #8b0000;
+  border-radius: 8px;
+}
+.keyOutput {
+  border: 1px solid #008b8b;
+  border-radius: 8px;
+  color: #008b8b;
+  display: inline-block;
+  font-size: 16px;
+  height: 30px;
+  text-align: center;
+  width: 120px;
+  margin: 7px 0;
+  font-family: consolas;
+}
+.keyOutput > p {
+  margin-top: 5px;
+}
+.areaGap {
+  visibility: hidden;
+}
+.delKey {
+  font-size: 15px;
+  line-height: 0.9;
+}
+.delKey > p {
+  margin-top: 14px;
+}
+.t16 {
+  font-size: 16px;
+}
+.t16 > p {
+  margin-top: 18px;
+}
+.key.delKey.minSize > p {
+  font-size: 28px;
+  margin-top: -2px;
+}
+.key.delKey.plusKey > p {
+  font-size: 20px;
+  line-height: 0.7;
+}
+.brackets {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.gapWidth {
+  width: 2px;
+}
+.keyboard-section {
+  padding: 0 22px;
+}
+.key.backSpace > p {
+  margin: 10px;
+  transform: translateY(-26px);
+  text-align: center;
+  margin-left: 60px;
+}
+.key.backSpace {
+  font-size: 35px;
+  width: 177px;
+}
+.key.tab {
+  text-align: left;
+  width: 83px;
+}
+.key.arithmeticKey > p {
+  font-size: 20px;
+  margin-top: 16px;
+}
+.key.arithmeticKey.backslash {
+  width: 146px;
+}
+.key.plus {
+  float: right;
+  height: 116px;
+}
+.key.plus > p {
+  margin-top: 45px;
+}
+.key.caps {
+  font-size: 16px;
+  width: 105px;
+}
+.key.caps > p {
+  text-align: left;
+  margin-left: 7px;
+  margin-top: 17px;
+}
+.key.enter {
+  width: 184px;
+}
+.key.enter > p {
+  text-align: left;
+  margin-left: 112px;
+  font-size: 44px;
+  transform: translateY(-70px);
+}
+.key.shiftLeft {
+  width: 132px;
+}
+.key.shiftLeft > p,
+.key.shiftRight > p {
+  font-size: 16px;
+  margin-top: 18px;
+  text-align: left;
+  margin-left: 7px;
+}
+.key.shiftRight {
+  width: 157px;
+}
+.key.enterRight {
+  float: right;
+  height: 116px;
+}
+.key.enterRight > p {
+  font-size: 16px;
+  margin-top: 48px;
+}
+.key.ctrl1,
+.key.ctrl2 {
+  text-align: left;
+  width: 95px;
+}
+.key.cont {
+  width: 66px;
+}
+.key.cont > p {
+  margin: 14px auto 0;
+  text-align: center;
+}
+.key.arrowUp > p {
+  font-size: 26px;
+  margin-top: 9px;
+  transform: rotate(-90deg);
+}
+.key.wndw > p {
+  margin: 14px auto 0;
+  text-align: center;
+}
+.key.wndw {
+  width: 70px;
+}
+.key.alt {
+  width: 70px;
+}
+.key.space {
+  width: 325px;
+}
+.key.zero {
+  width: 112px;
+}
+.key.lclick {
+  border-radius: 55px 0 0 0;
+  height: 70px;
+  vertical-align: bottom;
+  width: 96px;
+}
+.key.rclick {
+  border-radius: 0 55px 0 0;
+  height: 70px;
+  vertical-align: bottom;
+  width: 96px;
+}
+.key.cclick {
+  border-radius: 10px;
+  height: 50px;
+  margin-top: 15px;
+  vertical-align: top;
+  width: 24px;
+}
+.key.scrollUp {
+  border-radius: 0 0 0 0;
+  height: 20px;
+  vertical-align: top;
+  width: 96px;
+}
+.key.scrollDown {
+  border-radius: 0 0 0 0;
+  height: 20px;
+  vertical-align: top;
+  width: 96px;
+}
+.key.divider {
+  border-radius: 0;
+  height: 0;
+  margin-top: 0;
+  vertical-align: top;
+  width: 24px;
+  border-color: #000;
+}
+.mouse-section {
+  text-align: center;
+  vertical-align: bottom;
+}
+.key.arrowLeft > p,
+.key.arrowRight > p {
+  font-size: 26px;
+  margin: 11px 0;
+  transform: rotate(180deg);
+}
+.key.arrowDown > p {
+  font-size: 26px;
+  margin: 14px 0 14px 5px;
+  transform: rotate(90deg);
+}
+h1 {
+  font-size: 18px;
+  margin: 0;
+  padding: 25px 0;
+}
+.key.press,
+.keyFunc.press {
+  background-color: #00ced1;
+  border-color: #00e1ef;
+  color: #000;
+  top: 0.2em;
+  box-shadow: 0 0 0 0.05em #000;
+}
+.key.active,
+.keyFunc.active {
+  background-color: #000;
+  border-color: #00e1ef;
+  color: #01c7d4;
+  top: 0.2em;
+  box-shadow: 0 0 0 0.05em #000;
+}
+.key.enter.active span,
+.key.enter.press span {
+  background-position: -24px -13px;
+}
+.sliding_text_info {
+  background-color: rgba(2, 12, 20, 0.8);
+  bottom: 0;
+  color: rgba(0, 139, 139, 0.658);
+  font-size: 14px;
+  font-weight: 700;
+  left: 0;
+  padding: 10px;
+  right: 0;
+  z-index: 200;
+  font-family: consolas;
+}
+.footer-text {
+  background-color: #000;
+  bottom: 0;
+  color: #2f4f4f;
+  font-size: 15px;
+  font-weight: 700;
+  left: 0;
+  padding: 16px;
+  position: fixed;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+  font-family: consolas;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+}
