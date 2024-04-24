@@ -10,8 +10,10 @@
     <li>Total 106 different keys test</li>
     <li>Available : Mouse Left,RIght,Middle key & Scroll Up,Scroll Down tests </li>
     <li>User friendly UI</li>
+    <li>UPDATE: Remove outdated AddThis & WebFreeCounter </li>
+    <li>UPDATE: Make jquery and font-awesome local </li>
 </ul>
-<p><h4>CHECK THIS APPS LIVE: <a href="https://shawon9324.github.io/apps/keytester ">https://shawon9324.github.io/apps/keytester </a></h4></p>
+<p><h4>CHECK THIS APPS LIVE: <a href="https://gwjwin.github.io/keyboard-mouse-tester-webApp/ "> https://gwjwin.github.io/keyboard-mouse-tester-webApp/ </a></h4></p>
 
 ## MAIN PAGE:
 <img src="img/main_page.PNG" alt="main_page">
