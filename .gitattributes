@@ -1,0 +1,14 @@
+# Normalize line endings to LF in the repo, check out native on each OS.
+# Prevents the whole-file CRLF/LF "phantom diffs" this repo used to show.
+* text=auto eol=lf
+
+# Treat these as binary so git never touches their bytes.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.otf binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
