@@ -1,0 +1,13 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Editor folders
+.vscode/
+.idea/
+
+# Dependency / build output (none needed — this is a zero-build static site)
+node_modules/
+dist/
