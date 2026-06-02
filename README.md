@@ -4,7 +4,7 @@
 
 ### Test every key, mouse button, scroll wheel and gamepad — right in your browser.
 
-[![Live Demo](https://img.shields.io/badge/▶_Live_Demo-Open-22d3ee?style=for-the-badge)](https://shawon9324.github.io/keyboard-mouse-tester-webApp/)
+[![Live Demo](https://img.shields.io/badge/▶_Live_Demo-Open-22d3ee?style=for-the-badge)](https://keyboard-mouse-tester-web-app.vercel.app/)
 &nbsp;
 [![Stars](https://img.shields.io/github/stars/shawon9324/keyboard-mouse-tester-webApp?style=for-the-badge&color=d946ef)](https://github.com/shawon9324/keyboard-mouse-tester-webApp/stargazers)
 &nbsp;
@@ -52,7 +52,7 @@ Scroll down to the [Hall of Thanks](#-hall-of-thanks) — your names are baked r
 
 ## 🚀 Live demo
 
-**→ https://shawon9324.github.io/keyboard-mouse-tester-webApp/**
+**→ https://keyboard-mouse-tester-web-app.vercel.app/**
 
 > Tip: some keys (Win/Meta, PrtSc, certain F-keys) may be intercepted by your OS or browser before
 > the page can see them — that's expected behavior, not a dead key.
@@ -99,14 +99,15 @@ npx serve .
 
 Then visit `http://localhost:8080`.
 
-## ☁️ Deploy (GitHub Pages)
+## ☁️ Deploy
 
-1. Push to GitHub.
-2. **Settings → Pages → Source: `Deploy from a branch`**, branch `main`, folder `/ (root)`.
-3. Your site goes live at `https://<username>.github.io/keyboard-mouse-tester-webApp/`.
+The live site is hosted on **[Vercel](https://keyboard-mouse-tester-web-app.vercel.app/)** — it's a
+zero-build static site, so every push auto-deploys with no configuration.
 
-It's a plain static site, so it also drops straight onto Netlify, Vercel, Cloudflare Pages, or any
-static host.
+- **Vercel / Netlify / Cloudflare Pages:** import the repo, no build command, output directory `/` (root).
+- **GitHub Pages:** **Settings → Pages → Deploy from a branch**, branch `main`, folder `/ (root)`.
+
+Since there's no build step, it drops onto any static host exactly as-is.
 
 ## 💜 Hall of Thanks
 
